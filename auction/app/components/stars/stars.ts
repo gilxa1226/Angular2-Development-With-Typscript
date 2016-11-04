@@ -2,7 +2,7 @@ import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
 	templateUrl: 'app/components/stars/stars.html',
-	styles: [` .starring { color: #d17581; }`],
+	styleUrls: ['app/components/stars/stars.css'],
 	selector: 'auction-stars'
 })
 export default class StarsComponent implements OnInit {
